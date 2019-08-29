@@ -9,12 +9,4 @@ import { Post } from './models/post.model';
 })
 export class AppComponent {
   title = 'Mean Aplication';
-
-  posts: Post[] = [];
-
-  onPostAdded(post) {
-
-    this.posts.push(post);
-
-  }
 }
